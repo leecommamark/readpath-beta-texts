@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "name": "Select Song Lyrics",
+  "description": "A small set of song lyrics to practise reading.",
+  "texts": [
+    {
+      "file": "01-每天愛你多一些.txt",
+      "title": "張學友 - 每天愛你多一些",
+      "chars": 359
+    },
+    {
+      "file": "02-容易受傷的女人.txt",
+      "title": "王菲 - 容易受傷的女人",
+      "chars": 389
+    },
+    {
+      "file": "03-最佳拍檔.txt",
+      "title": "許冠傑 - 最佳拍檔",
+      "chars": 212
+    },
+    {
+      "file": "04-談情說愛.txt",
+      "title": "葉倩文 & 鄭秀文 - 談情說愛",
+      "chars": 462
+    },
+    {
+      "file": "05-不拖不欠.txt",
+      "title": "鄭秀文 - 不拖不欠",
+      "chars": 424
+    },
+    {
+      "file": "06-夢伴.txt",
+      "title": "梅艷芳 - 夢伴",
+      "chars": 363
+    },
+    {
+      "file": "07-夕陽之歌.txt",
+      "title": "梅艷芳 - 夕陽之歌",
+      "chars": 407
+    },
+    {
+      "file": "08-祇想一生跟你走.txt",
+      "title": "張學友 - 祇想一生跟你走",
+      "chars": 445
+    }
+  ]
+}
