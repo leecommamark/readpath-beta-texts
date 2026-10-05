@@ -42,7 +42,7 @@ def find_forbidden():
 
 
 def check_text(path, rel, failures, warnings):
-    """Return (title, cjk_count, trimmed_text) for a good text, or None."""
+    """Return (title, cjk_count, body) for a good text, or None."""
     with open(path, "rb") as f:
         raw = f.read()
     try:
@@ -54,26 +54,30 @@ def check_text(path, rel, failures, warnings):
         failures.append(f"{rel}: contains NUL characters (UTF-16 saved as text?)")
         return None
     text = text.replace("\r\n", "\n")
-    count = len(CJK.findall(text))
-    if count == 0:
-        failures.append(f"{rel}: no Chinese characters (empty file?)")
+    lines = text.split("\n")
+    # The app takes the first non-blank line as the title and the rest as
+    # the text (as the starter text is read), so the checks are on the rest.
+    first = next((i for i, l in enumerate(lines) if l.strip()), None)
+    if first is None:
+        failures.append(f"{rel}: empty file")
         return None
-    trimmed = text.strip()
-    units = utf16_length(trimmed)
+    title = lines[first].strip()
+    if first:
+        warnings.append(f"{rel}: line 1 is blank; line 1 should be the title")
+    body = "\n".join(lines[first + 1:]).strip()
+    count = len(CJK.findall(body))
+    if count == 0:
+        failures.append(f"{rel}: no Chinese characters after the title line")
+        return None
+    units = utf16_length(body)
     if units > MAX_UNITS:
         failures.append(f"{rel}: {units} characters, over the {MAX_UNITS} limit")
         return None
-    lines = text.split("\n")
-    if lines[0].strip():
-        title = lines[0].strip()
-    else:
-        title = next(l.strip() for l in lines if l.strip())
-        warnings.append(f"{rel}: line 1 is blank; line 1 should be the title")
     if len(title) > TITLE_MAX:
         warnings.append(f"{rel}: title is {len(title)} characters; the app cuts it at {TITLE_MAX}")
-    if len(lines) > 1 and lines[1].strip():
-        warnings.append(f"{rel}: line 2 is not blank (title, blank line, then the body)")
-    return title, count, trimmed
+    if len(lines) > first + 1 and lines[first + 1].strip():
+        warnings.append(f"{rel}: the line after the title is not blank (title, blank line, then the text)")
+    return title, count, body
 
 
 def main():

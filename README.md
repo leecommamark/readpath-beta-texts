@@ -8,7 +8,9 @@ Texts for Read Path beta testers. The app fetches them from a link
 * One folder per bundle, named by theme: lowercase a-z, 0-9 and hyphens, up to
   40 characters (`everyday/`, `food/`). Other folders and root files are ignored.
 * Each text is a `.txt` file directly in the folder: UTF-8, a short Chinese
-  title on line 1, a blank line, then the body. Under 20,000 characters.
+  title on line 1, a blank line, then the body. Line 1 becomes the text's
+  title in the app and isn't part of the text. The body is under 20,000
+  characters.
   Files are listed in filename order (`01-...`, `02-...`).
 * Optional `bundle.md`: display name on line 1, one-line description on line 2.
 * Optional `SOURCES.md`: where the texts came from (needed for CC texts).
