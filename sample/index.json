@@ -1,0 +1,17 @@
+{
+  "format": 1,
+  "name": "Sample",
+  "description": "A small test set for trying the app; Mark can delete this folder any time.",
+  "texts": [
+    {
+      "file": "01-搭地鐵.txt",
+      "title": "搭地鐵",
+      "chars": 85
+    },
+    {
+      "file": "02-落雨天.txt",
+      "title": "落雨天",
+      "chars": 78
+    }
+  ]
+}
