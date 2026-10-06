@@ -1,0 +1,207 @@
+{
+  "format": 1,
+  "name": "Storybooks Canada 故仔",
+  "description": "40 short Cantonese picture-book stories, Levels 1-5 (CC licensed, see SOURCES.md).",
+  "texts": [
+    {
+      "file": "01-L1-我好鍾意睇書.txt",
+      "title": "我好鍾意睇書",
+      "chars": 75
+    },
+    {
+      "file": "02-L1-數動物.txt",
+      "title": "數動物",
+      "chars": 114
+    },
+    {
+      "file": "03-L1-感情.txt",
+      "title": "感情",
+      "chars": 73
+    },
+    {
+      "file": "04-L1-火.txt",
+      "title": "火",
+      "chars": 39
+    },
+    {
+      "file": "05-L1-好肚餓嘅鱷魚.txt",
+      "title": "好肚餓嘅鱷魚",
+      "chars": 54
+    },
+    {
+      "file": "06-L1-睇吓農場嘅動物.txt",
+      "title": "睇吓農場嘅動物",
+      "chars": 42
+    },
+    {
+      "file": "07-L1-校服.txt",
+      "title": "校服",
+      "chars": 49
+    },
+    {
+      "file": "08-L1-頭髮.txt",
+      "title": "頭髮",
+      "chars": 52
+    },
+    {
+      "file": "09-L1-兩個.txt",
+      "title": "兩個",
+      "chars": 46
+    },
+    {
+      "file": "10-L1-天氣書.txt",
+      "title": "天氣書",
+      "chars": 45
+    },
+    {
+      "file": "11-L1-爛玩嘅細佬.txt",
+      "title": "爛玩嘅細佬",
+      "chars": 43
+    },
+    {
+      "file": "12-L1-整餸.txt",
+      "title": "整餸",
+      "chars": 49
+    },
+    {
+      "file": "13-L1-你做緊乜嘢.txt",
+      "title": "你做緊乜嘢？",
+      "chars": 30
+    },
+    {
+      "file": "14-L1-我隻小貓貓喺邊度.txt",
+      "title": "我隻小貓貓喺邊度？",
+      "chars": 60
+    },
+    {
+      "file": "15-L1-我嘅身體.txt",
+      "title": "我嘅身體",
+      "chars": 58
+    },
+    {
+      "file": "16-L2-點解河馬冇毛.txt",
+      "title": "點解河馬冇毛",
+      "chars": 316
+    },
+    {
+      "file": "17-L2-蠟做嘅細路仔.txt",
+      "title": "蠟做嘅細路仔",
+      "chars": 225
+    },
+    {
+      "file": "18-L2-丁支同班牛.txt",
+      "title": "丁支同班牛",
+      "chars": 138
+    },
+    {
+      "file": "19-L2-賣香蕉嘅湯姆.txt",
+      "title": "賣香蕉嘅湯姆",
+      "chars": 247
+    },
+    {
+      "file": "20-L2-決定.txt",
+      "title": "決定",
+      "chars": 338
+    },
+    {
+      "file": "21-L2-懲罰.txt",
+      "title": "懲罰",
+      "chars": 217
+    },
+    {
+      "file": "22-L2-同植物講嘢嘅卡麗.txt",
+      "title": "同植物講嘢嘅卡麗",
+      "chars": 290
+    },
+    {
+      "file": "23-L2-球星安迪斯娃.txt",
+      "title": "球星安迪斯娃",
+      "chars": 277
+    },
+    {
+      "file": "24-L2-一個好高嘅人.txt",
+      "title": "一個好高嘅人",
+      "chars": 116
+    },
+    {
+      "file": "25-L2-贊瑪好勁.txt",
+      "title": "贊瑪好勁！",
+      "chars": 201
+    },
+    {
+      "file": "26-L2-山羊野狗同水牛.txt",
+      "title": "山羊、野狗、同水牛",
+      "chars": 204
+    },
+    {
+      "file": "27-L3-驢仔.txt",
+      "title": "驢仔",
+      "chars": 739
+    },
+    {
+      "file": "28-L3-阿南西與智慧.txt",
+      "title": "阿南西與智慧",
+      "chars": 400
+    },
+    {
+      "file": "29-L3-一粒小種子旺加里馬塔伊嘅故仔.txt",
+      "title": "一粒小種子：旺加里·馬塔伊嘅故仔",
+      "chars": 680
+    },
+    {
+      "file": "30-L3-雞乸同老鷹.txt",
+      "title": "雞乸同老鷹",
+      "chars": 654
+    },
+    {
+      "file": "31-L3-離開屋企去城市嘅日子.txt",
+      "title": "離開屋企去城市嘅日子",
+      "chars": 619
+    },
+    {
+      "file": "32-L3-雞同千足蟲.txt",
+      "title": "雞同千足蟲",
+      "chars": 442
+    },
+    {
+      "file": "33-L3-挪姿卑莉同三條頭髮.txt",
+      "title": "挪姿卑莉同三條頭髮",
+      "chars": 655
+    },
+    {
+      "file": "34-L3-沙基馬嘅歌聲.txt",
+      "title": "沙基馬嘅歌聲",
+      "chars": 749
+    },
+    {
+      "file": "35-L4-夫思家姐講咗嘅說話.txt",
+      "title": "夫思家姐講咗嘅說話",
+      "chars": 897
+    },
+    {
+      "file": "36-L4-指蜜鳥嘅報仇.txt",
+      "title": "指蜜鳥嘅報仇",
+      "chars": 1173
+    },
+    {
+      "file": "37-L4-婆婆嘅香蕉.txt",
+      "title": "婆婆嘅香蕉",
+      "chars": 869
+    },
+    {
+      "file": "38-L4-同嫲嫲一齊過暑假.txt",
+      "title": "同嫲嫲一齊過暑假",
+      "chars": 931
+    },
+    {
+      "file": "39-L5-星卑桂亞.txt",
+      "title": "星卑桂亞",
+      "chars": 1514
+    },
+    {
+      "file": "40-L5-瑪哥威.txt",
+      "title": "瑪哥威",
+      "chars": 1361
+    }
+  ]
+}
